@@ -1,0 +1,17 @@
+<view class="flex-container-c">
+  <view class="photo-container">
+    <image class="photo" style="width: 750rpx; height: 520px;" src="{{photoPath}}" mode="aspectFill" />
+    <image class="photo-frame" style="width:750rpx; height: 30px;" src="../../../assets/images/frame.png" mode="aspectFill" />
+  </view>
+
+  <view class="info-container flex-container-c flex-gap-120">
+    <view class="flex-container-c flex-gap-8">
+      <text class="h0">{{nickName}}</text>
+      <text class="h1">{{realName}}</text>
+    </view>
+    <view class="flex-container-r" style="width: 100%;">
+      <view class="hints flex-item-fill">杉泰健康科技(上海)有限公司</view>
+      <image style="width: 87px; height:23px;" src="../../../assets/images/shantai-logo.png" />
+    </view>
+  </view>
+</view>

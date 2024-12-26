@@ -1,0 +1,34 @@
+<view class="flex-container-c">
+  <view class="photo-container">
+    <block tt:if="{{hasPhoto}}">
+      <image bindtap="onAddPhoto" class="photo" style="width:750rpx; height:520px; background-color:#fff;" src="{{photoURL}}" mode="aspectFill" />
+    </block>
+    <image class="photo-frame" style="width:750rpx; height: 30px;" src="../../assets/images/frame.png" mode="aspectFill" />
+    <block tt:if="{{!hasPhoto}}">
+      <view class="flex-container-c" style="padding: 32rpx;">
+        <view class="btn-large btn-dashed-dark flex-container-c" bindtap="onAddPhoto">
+          <image src="../../assets/images/empty-photo.png" style="width:290px; height:290px;"/>
+          <text>点击添加照片</text>
+        </view>
+      </view>
+    </block>
+  </view>
+
+  <view class="info-container flex-container-c">
+    <view class="btn-large btn-dashed-light" bindtap="onAddNickName">
+      <block tt:if="{{hasNickName}}">
+        <text>{{nickname}}</text>
+      </block>
+      <block tt:if="{{!hasNickName}}">
+        <text>点击添加昵称</text>
+      </block>
+    </view>
+  </view>
+</view>
+
+<view class="action-area">
+  <view class="btns-container">
+    <button bindtap="onPreview" type="default" class="btn btn-half-layout">{{preview}}</button>
+    <button bindtap="onSubmit" type="primary" class="btn btn-half-layout">{{submit}}</button>
+  </view>
+</view>

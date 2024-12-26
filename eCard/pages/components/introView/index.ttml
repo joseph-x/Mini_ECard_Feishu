@@ -1,0 +1,46 @@
+<scroll-view scroll-y scroll-with-animation>
+  <view class="article flex-container-c">
+    <view class="title">给自己起个昵称</view>
+    <view class="paragraph">鼓励大家平等沟通～减少直至取消“老板、X总、X哥、X姐等”称呼，逐步消灭职级隔阂，鼓励大家相互沟通交流时，畅所欲言，直言有讳。避免因职级岗位差异带来的“不敢说话、不敢说真话”现象，减少公司发展阻力。</view>
+    <view class="paragraph">
+      <view class="sub-title">昵称要求</view>
+        <view class="margin-8">
+          <text class="strong">1、正面寓意：</text>具有积极、正面的寓意，体现企业价值观和文化精神。
+        </view>
+        <view class="margin-8">
+          <text class="strong">2、易记忆：</text>简洁、易记，便于同事之间的沟通和交流。
+        </view>
+        <view class="margin-8">
+          <text class="strong">3、个性化：</text>能体现自己个性化和价值观的。
+        </view>
+        <view class="margin-8">
+          <text class="strong">4、不可更改：</text>经审核生效后，不可更改。
+        </view>
+      <view>2-3个汉字或英文名皆可，无特殊符号，具备正能量传播属性（避免取带“哥、姐、爷、总、爸、母、爹、娘”等阶级性称呼等），不能使用政治敏感词，不要使用商标品牌名或近代历史伟人。</view>
+    </view>
+    <view class="paragraph">
+      <view class="sub-title">使用范围</view>
+      <view>内部沟通：员工在内部沟通、会议、邮件等场合，可使用花名代替真实姓名，以促进平等、友善的交流氛围。</view>
+      <view>（外部沟通仍然使用职位类或真实姓名）</view>
+    </view>
+    <view class="paragraph">
+      <view class="sub-title">取名流程</view>
+      <view class="margin-8">
+        <text class="strong">1、提交：</text>提交一个自己心仪的花名，并附上该花名的寓意和理由。
+      </view>
+      <view class="margin-8">
+        <text class="strong">2、审核：</text>人力资源部将审核员工提交的花名，确保其符合企业的命名规则和文化精神。如遇不符合价值观规范的，请更改。
+      </view>
+      <view class="margin-8">
+        <text class="strong">3、发布：</text>审核通过后，人力资源部将公布员工的花名，并在企业内部系统中进行登记。
+      </view>
+    </view>
+    <view class="paragraph highlight">
+      <view class="sub-title">注意事项</view>
+      <view style="margin: 12rpx 0;">应尊重他人的昵称，避免使用带有侮辱、歧视等不当言论。</view>
+      <view style="margin: 12rpx 0;">应妥善保管自己的昵称信息，避免泄露给他人造成不必要的麻烦。</view>
+      <view style="margin: 12rpx 0;">应积极参与昵称文化的建设和推广，共同营造和谐、友善的企业氛围。</view>
+    </view>
+    <view class="paragraph" style="height: 4rem;"></view>
+  </view>
+</scroll-view>

@@ -1,0 +1,73 @@
+.photo-container{
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  max-height: 520px;
+  background-color: #fff;
+}
+
+.photo{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.photo-frame{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.info-container{
+  background-color: #005EB8;
+  box-sizing: border-box;
+  height: 36vh;
+  overflow-y: hidden;
+  width: 100%;
+  padding: 32rpx;
+}
+
+.h0{
+  font-size: 44px; 
+  font-weight: 600;
+  color: #fff;
+}
+
+.h1{
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.80);
+}
+
+.hints{
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.80);
+}
+
+.flex-container-c{
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start;
+}
+
+.flex-container-r{
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-item-fill{
+  flex: 1 0 0;
+}
+
+.flex-gap-0{
+  gap: 0;
+}
+
+.flex-grap-8{
+  gap: 8rpx;
+}
+
+.flex-gap-120{
+  gap: 120rpx;
+}

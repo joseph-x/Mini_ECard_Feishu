@@ -1,0 +1,18 @@
+<block tt:if="{{hasCard}}">
+  <block tt:if="{{inProgress}}">
+    <view class="notice">工卡信息审核中，预计1-2个工作日。</view>
+  </block>
+  <card-view real-name="{{realname}}" photo-path="{{photoURL}}" nick-name="{{nickname}}" />
+</block>
+<block tt:if="{{!hasCard}}">
+  <intro-view />
+  <view class="action-area">
+    <view class="btns-container">
+      <button bindtap="onNext" type="primary" class="btn btn-half-layout" >{{next}}</button>
+    </view>
+  </view>
+</block>
+
+<!--
+  <view bindtap="onReEdit" style="display:inline-block; cursor:pointer; color:var(--token-primary-500);">重新提交</view>
+-->

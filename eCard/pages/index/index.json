@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "card-view": "../components/cardView/index",
+    "intro-view": "../components/introView/index"
+  }
+}

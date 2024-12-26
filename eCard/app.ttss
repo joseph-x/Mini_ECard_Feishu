@@ -1,0 +1,64 @@
+page {
+  overflow-x: hidden;
+}
+
+.btn{
+  border-radius: 999px;
+}
+
+.action-area{
+  width: 100%;
+  position: fixed;
+  bottom: 0rpx;
+  background-color: #fff;
+  border-top: 1rpx solid rgba(12, 30, 61, 0.1);
+}
+
+.btns-container{
+  display: flex;
+  padding: 8rpx 16rpx 64rpx 16rpx;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.btn-half-layout{
+  width: 100%;
+  height: auto;
+}
+
+.flex-container-c{
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start;
+}
+
+.flex-container-r{
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-item-fill{
+  flex: 1 0 0;
+}
+
+.flex-gap-0{
+  gap: 0;
+}
+
+.flex-gap-8{
+  gap: 8rpx;
+}
+
+.flex-gap-24{
+  gap: 24rpx;
+}
+
+.flex-gap-32{
+  gap: 32rpx;
+}
+
+.flex-gap-120{
+  gap: 120rpx;
+}

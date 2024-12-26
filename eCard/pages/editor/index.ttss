@@ -1,0 +1,88 @@
+.photo-container{
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  max-height: 520px;
+  background-color: #fff;
+}
+
+.photo{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.photo-frame{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.info-container{
+  background-color: #005EB8;
+  box-sizing: border-box;
+  height: 36vh;
+  overflow-y: hidden;
+  width: 100%;
+  padding: 32rpx;
+}
+
+.h0{
+  font-size: 44px; 
+  font-weight: 600;
+  color: #fff;
+}
+
+.h1{
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.80);
+}
+
+.hints{
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.80);
+}
+
+.btn-large{
+  border-radius: 6px;
+  font-size: 20px;
+  padding: 32rpx;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
+}
+
+.btn-dashed-light{
+  border: 1px dashed rgba(255, 255, 255, 0.35);
+  background: rgba(255, 255, 255, 0.05);
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.btn-dashed-light:hover{
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.btn-dashed-light:active{
+  background: rgba(255, 255, 255, 0.10);
+}
+
+.btn-dashed-dark{
+  border: 1px dashed #AAB3BB;
+  background: rgba(180, 180, 180, 0.05);
+  color: rgba(12, 30, 61, 0.48);
+  height: 56vh;
+}
+
+.btn-dashed-dark:hover{
+  background: rgba(180, 180, 180, 0.08);
+}
+
+.btn-dashed-dark:active{
+  background: rgba(180, 180, 180, 0.10);
+  color: rgba(12, 30, 61, 0.28);
+}
